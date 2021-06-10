@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
 	return (
@@ -10,35 +10,35 @@ export default function NavBar() {
 			<button
 				className="navbar-toggler"
 				type="button"
-				data-toggle="collapse"
-				data-target="#navbarNav"
+				data-bs-toggle="collapse"
+				data-bs-target="#navbarNav"
 				aria-controls="navbarNav"
 				aria-expanded="false"
 				aria-label="Toggle navigation"
 			>
 				<span className="navbar-toggler-icon"></span>
 			</button>
-			<div className="collapse navbar-collapse" id="navbarNav">
+			<div className="collapse navbar-collapse ms-auto" id="navbarNav">
 				<ul className="navbar-nav">
 					<li className="nav-item">
-						<NavLink className="nav-link" to="/home">
+						<Link className="nav-link" to="/home">
 							Home
-						</NavLink>
+						</Link>
 					</li>
 					<li className="nav-item">
-						<NavLink className="nav-link" to="/about">
+						<Link className="nav-link" to="/about">
 							About
-						</NavLink>
+						</Link>
 					</li>
 					<li className="nav-item">
-						<NavLink className="nav-link" to="/projects">
+						<Link className="nav-link" to="/projects">
 							Projects
-						</NavLink>
+						</Link>
 					</li>
 					<li className="nav-item">
-						<NavLink className="nav-link" to="/resume">
+						<Link className="nav-link" to="/resume">
 							Resume
-						</NavLink>
+						</Link>
 					</li>
 				</ul>
 			</div>
