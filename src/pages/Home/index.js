@@ -1,6 +1,12 @@
 import React from 'react';
+import './assets/style/index.css';
+import Hero from './Hero';
 const Home = () => {
-	return <h1>Home</h1>;
+	return (
+		<>
+			<Hero />
+		</>
+	);
 };
 
 export default Home;
