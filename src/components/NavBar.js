@@ -1,47 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Nav, Navbar } from 'react-bootstrap';
 
 export default function NavBar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
-			<Link className="navbar-brand" to="/">
-				KMYdev
-			</Link>
-			<button
-				className="navbar-toggler"
-				type="button"
-				data-bs-toggle="collapse"
-				data-bs-target="#navbarNav"
-				aria-controls="navbarNav"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span className="navbar-toggler-icon"></span>
-			</button>
-			<div className="collapse navbar-collapse ms-auto" id="navbarNav">
-				<ul className="navbar-nav">
-					<li className="nav-item">
-						<Link className="nav-link" to="/home">
-							Home
-						</Link>
-					</li>
-					<li className="nav-item">
-						<Link className="nav-link" to="/about">
-							About
-						</Link>
-					</li>
-					<li className="nav-item">
-						<Link className="nav-link" to="/projects">
-							Projects
-						</Link>
-					</li>
-					<li className="nav-item">
-						<Link className="nav-link" to="/resume">
-							Resume
-						</Link>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		<Navbar bg="dark" variant="dark" expand="lg" className="px-3">
+			<Navbar.Brand href="/">
+				KMY<small>dev</small>
+			</Navbar.Brand>
+			<Navbar.Toggle aria-controls="basic-navbar-nav" />
+			<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+				<Nav className="mr-auto">
+					<Nav.Link href="/home">Home</Nav.Link>
+					<Nav.Link href="/about">About</Nav.Link>
+					<Nav.Link href="/projects">Projects</Nav.Link>
+					<Nav.Link href="/resume">Resume</Nav.Link>
+				</Nav>
+			</Navbar.Collapse>
+		</Navbar>
 	);
 }
