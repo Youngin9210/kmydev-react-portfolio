@@ -17,18 +17,16 @@ const App = () => {
 		<Router>
 			<div>
 				<NavBar />
-				<main className="container">
-					<Switch>
-						{/* <Route exact path="/projects/:id" component=""></Route> */}
-						<Route exact path="/home" component={Home}></Route>
-						<Route exact path="/about" component={About}></Route>
-						<Route exact path="/projects" component={Projects}></Route>
-						<Route exact path="/resume" component={Resume}></Route>
-						<Route path="/not-found" component={NotFound}></Route>
-						<Redirect from="/" exact to="/home" />
-						<Redirect to="/not-found" />
-					</Switch>
-				</main>
+				<Switch>
+					{/* <Route exact path="/projects/:id" component=""></Route> */}
+					<Route exact path="/home" component={Home}></Route>
+					<Route exact path="/about" component={About}></Route>
+					<Route exact path="/projects" component={Projects}></Route>
+					<Route exact path="/resume" component={Resume}></Route>
+					<Route path="/not-found" component={NotFound}></Route>
+					<Redirect from="/" exact to="/home" />
+					<Redirect to="/not-found" />
+				</Switch>
 			</div>
 		</Router>
 	);
