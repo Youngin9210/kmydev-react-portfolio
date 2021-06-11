@@ -1,3 +1,7 @@
+body {
+  color: white;
+}
+
 h1,
 h2,
 h3,
@@ -19,6 +23,6 @@ h5 {
 }
 
 .navScroll {
-  background: #7D67C6;
+  background: #170e2cfb;
 }
 /*# sourceMappingURL=index.css.map */
