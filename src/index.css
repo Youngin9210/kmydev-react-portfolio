@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Itim', cursive;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.navbar #kmyNav .nav-link:hover {
+  color: white;
+}
+
+.navScroll {
+  background: #7D67C6;
+}
+/*# sourceMappingURL=index.css.map */
