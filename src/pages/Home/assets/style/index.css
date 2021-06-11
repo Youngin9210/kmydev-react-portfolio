@@ -1,0 +1,33 @@
+#hero {
+  background: url("../images/header.jpeg") center center/cover no-repeat;
+  min-height: 750px;
+  position: relative;
+}
+
+#hero #header {
+  z-index: 2;
+}
+
+#hero #header .header-svg img {
+  width: 100%;
+}
+
+#hero #overlay {
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#hero h1 {
+  line-height: 1;
+}
+
+#hero #headshot {
+  position: relative;
+  top: 15%;
+}
+/*# sourceMappingURL=index.css.map */
