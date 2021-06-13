@@ -8,8 +8,12 @@
   z-index: 2;
 }
 
-#hero #header .header-svg img {
+#hero #header .header-img img {
   width: 100%;
+}
+
+#hero #header .header-content h2 span {
+  color: #7d67c6;
 }
 
 #hero #overlay {
@@ -29,5 +33,18 @@
 #hero #headshot {
   position: relative;
   top: 15%;
+}
+
+#intro button {
+  background: #7d67c6;
+  color: white;
+}
+
+#intro button:hover {
+  background: #45396d;
+}
+
+#intro .intro-img {
+  width: 80%;
 }
 /*# sourceMappingURL=index.css.map */

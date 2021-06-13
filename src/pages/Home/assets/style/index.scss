@@ -4,10 +4,11 @@
 	position: relative;
 	#header {
 		z-index: 2;
-		.header-svg {
+		.header-img {
 			img {
 				width: 100%;
 			}
+		}
 		}
 	}
 	#overlay {
@@ -25,5 +26,18 @@
 	#headshot {
 		position: relative;
 		top: 15%;
+	}
+}
+
+#intro {
+	button {
+		background: #7d67c6;
+		color: white;
+	}
+	button:hover {
+		background: #45396d;
+	}
+	.intro-img {
+		width: 80%;
 	}
 }
