@@ -1,20 +1,34 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
-export default function NavBar() {
+export default function NavBar({ onPageChange }) {
+	const [path] = useState(window.location.pathname);
+	const [navScroll, setNavScroll] = useState('');
 	const [navClass, setNavClass] = useState('');
+
 	useEffect(() => {
+		window.addEventListener('load', handlePageChange);
 		window.addEventListener('scroll', handleScroll);
 	});
 
 	const handleScroll = () => {
-		window.pageYOffset > 150
-			? setNavClass('navScroll px-3')
-			: setNavClass('px-3');
+		path === '/home' && window.pageYOffset > 150
+			? setNavScroll('navScroll')
+			: setNavScroll('');
+	};
+
+	const handlePageChange = () => {
+		path === '/home' ? setNavClass('homeNav') : setNavClass('otherNav');
 	};
 
 	return (
-		<Navbar id="mainNav" variant="dark" expand="lg" className={navClass}>
+		<Navbar
+			sticky="top"
+			id="mainNav"
+			variant="dark"
+			expand="lg"
+			className={`${navScroll} ${navClass}`}
+		>
 			<Container>
 				<Navbar.Brand href="/">
 					KMY<small>dev</small>
