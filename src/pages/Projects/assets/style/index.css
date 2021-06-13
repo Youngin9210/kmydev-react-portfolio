@@ -1,18 +1,19 @@
 .projectCard {
-  -webkit-box-shadow: 0px 0px 10px 10px #41188d77;
-          box-shadow: 0px 0px 10px 10px #41188d77;
+  -webkit-box-shadow: 0px 0px 10px 10px #958ea077;
+          box-shadow: 0px 0px 10px 10px #958ea077;
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
+  border-radius: 15px;
 }
 
 .projectCard .projectLink {
-  background: #41188d77;
+  background: #7d67c6;
   color: white;
 }
 
 .projectCard:hover {
-  -webkit-box-shadow: 0px 0px 15px 15px #41188de8;
-          box-shadow: 0px 0px 15px 15px #41188de8;
+  -webkit-box-shadow: 0px 0px 15px 15px #41188dbb;
+          box-shadow: 0px 0px 15px 15px #41188dbb;
   -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
 }
