@@ -1,4 +1,6 @@
 import budgetTracker from './Assets/images/budgetTracker.png';
+import lostFound from './Assets/images/lostFound.png';
+import noteTaker from './Assets/images/noteTaker.png';
 import reactEmployeeDirectory from './Assets/images/reactEmployeeDirectory.png';
 import techBlog from './Assets/images/techBlog.png';
 import workoutTracker from './Assets/images/workoutTracker.png';
@@ -82,6 +84,26 @@ const projects = [
 	},
 	{
 		id: 4,
+		name: 'Lost & Found',
+		img: lostFound,
+		repoURL: 'https://github.com/Youngin9210/Lost-Found',
+		deployedURL: 'https://glacial-fortress-45860.herokuapp.com/',
+		details: 'Details go here',
+		technologies: [
+			javascript,
+			github,
+			git,
+			nodejs,
+			npm,
+			bootstrap,
+			css,
+			html,
+			heroku,
+			mysql,
+		],
+	},
+	{
+		id: 5,
 		name: 'Tech Blog',
 		img: techBlog,
 		repoURL: 'https://github.com/Youngin9210/Tech-Blog',
@@ -100,16 +122,25 @@ const projects = [
 			mysql,
 		],
 	},
+	{
+		id: 6,
+		name: 'Note Taker',
+		img: noteTaker,
+		repoURL: 'https://github.com/Youngin9210/Note-Taker',
+		deployedURL: 'https://youngin9210.github.io/Weather-Dashboard/',
+		details: 'Details go here',
+		technologies: [
+			javascript,
+			nodejs,
+			npm,
+			css,
+			html,
+			bootstrap,
+			github,
+			git,
+			heroku,
+		],
+	},
 ];
 
 export default projects;
-
-// {technologies.map((tech) => {
-// 	return (
-// 		<DevIcon
-// 			icon={tech}
-// 			key={tech}
-// 			style={{ fill: 'black', width: '50px' }}
-// 		/>
-// 	);
-// })}
