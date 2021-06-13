@@ -10,18 +10,36 @@ h5 {
 	font-family: 'Itim', cursive;
 }
 
-.navbar {
+.homeNav {
 	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
 	z-index: 3;
+	transition: background 0.25s ease-out;
 	#kmyNav {
 		.nav-link:hover {
 			color: white;
 		}
 	}
 }
+
+.otherNav {
+	background: #41188de8;
+}
+
 .navScroll {
-	background: #170e2cfb;
+	background: #41188de8;
+	transition: all 0.25s ease-in;
+}
+
+.footerList {
+	.footerItem {
+		background: none;
+		border: none;
+		.footerLink {
+			color: white;
+			font-size: 1.5rem;
+		}
+	}
 }
