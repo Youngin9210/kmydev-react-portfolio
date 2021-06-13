@@ -12,15 +12,12 @@ import Home from './pages/Home/index';
 import NotFound from './pages/Not-Found/index';
 import Projects from './pages/Projects/index';
 import Resume from './pages/Resume/index';
-import ParticlesBg from './ParticlesBg';
 
 const App = () => {
 	return (
 		<Router>
-			<ParticlesBg />
 			<NavBar />
 			<Switch>
-				{/* <Route exact path="/projects/:id" component=""></Route> */}
 				<Route exact path="/home" component={Home}></Route>
 				<Route exact path="/about" component={About}></Route>
 				<Route exact path="/projects" component={Projects}></Route>
