@@ -35,6 +35,10 @@ h5 {
   transition: all 0.25s ease-in;
 }
 
+.purple {
+  color: #7d67c6;
+}
+
 .footerList .footerItem {
   background: none;
   border: none;
