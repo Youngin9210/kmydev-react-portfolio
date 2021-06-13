@@ -16,7 +16,7 @@ export default function CardBody({
 		<Col md={4} className="d-flex justify-content-center">
 			<Card
 				className="bg-transparent my-4 p-2 projectCard"
-				style={{ width: '18rem' }}
+				style={{ width: '22rem' }}
 			>
 				<Card.Img variant="top" src={img} />
 				<Card.Body>
