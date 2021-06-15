@@ -9,6 +9,11 @@ export default function NavBar({ onPageChange }) {
 	useEffect(() => {
 		window.addEventListener('load', handlePageChange);
 		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('load', handlePageChange);
+			window.removeEventListener('scroll', handleScroll);
+		};
 	});
 
 	const handleScroll = () => {
