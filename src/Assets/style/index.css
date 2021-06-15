@@ -1,4 +1,5 @@
 body {
+  font-family: 'Prompt', sans-serif;
   background: black;
   color: white;
 }
@@ -26,17 +27,18 @@ h5 {
 }
 
 .otherNav {
-  background: #41188de8;
+  background: #892be2ef;
 }
 
 .navScroll {
-  background: #41188de8;
+  background: #892be2ef;
   -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
 }
 
 .purple {
-  color: #7d67c6;
+  color: #8a2be2;
+  font-size: 1.75rem;
 }
 
 .footerList .footerItem {

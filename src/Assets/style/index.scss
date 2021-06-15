@@ -1,11 +1,5 @@
 body {
-	// background generated from https://cssgradient.io/
-	// background: rgb(19, 15, 36);
-	// background: radial-gradient(
-	// 	circle,
-	// 	rgba(19, 15, 36, 1) 75%,
-	// 	rgba(69, 57, 109, 1) 100%
-	// );
+	font-family: 'Prompt', sans-serif;
 	background: black;
 	color: white;
 }
@@ -33,16 +27,17 @@ h5 {
 }
 
 .otherNav {
-	background: #41188de8;
+	background: #892be2ef;
 }
 
 .navScroll {
-	background: #41188de8;
+	background: #892be2ef;
 	transition: all 0.25s ease-in;
 }
 
 .purple {
-	color: #7d67c6;
+	color: #8a2be2;
+	font-size: 1.75rem;
 }
 
 .footerList {
