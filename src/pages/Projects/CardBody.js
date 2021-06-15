@@ -11,12 +11,11 @@ export default function CardBody({
 	details,
 	technologies,
 }) {
-	console.log(id, name, img, repoURL, deployedURL, details, technologies);
 	return (
 		<Col md={4} className="d-flex justify-content-center">
 			<Card
 				className="bg-transparent my-4 p-2 projectCard"
-				style={{ width: '22rem' }}
+				style={{ width: '20rem' }}
 			>
 				<Card.Img variant="top" src={img} />
 				<Card.Body>
