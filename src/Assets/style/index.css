@@ -22,7 +22,7 @@ h5 {
   transition: background 0.25s ease-out;
 }
 
-.homeNav #kmyNav .nav-link:hover {
+.homeNav #kmyNav .nav-link {
   color: white;
 }
 
