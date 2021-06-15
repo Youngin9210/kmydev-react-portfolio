@@ -3,17 +3,18 @@ import { FaBootstrap, FaGithub, FaNpm, FaYarn } from 'react-icons/fa';
 import { GrHeroku } from 'react-icons/gr';
 import { RiAppleLine, RiTrelloLine } from 'react-icons/ri';
 import { SiSlack, SiVisualstudio } from 'react-icons/si';
+
 const tools = {
-	github: <FaGithub size="80" />,
-	npm: <FaNpm size="80" />,
-	yarn: <FaYarn size="80" />,
-	bootstrap: <FaBootstrap size="80" />,
-	heroku: <GrHeroku size="80" />,
-	vsCode: <SiVisualstudio size="80" />,
-	trello: <RiTrelloLine size="80" />,
-	terminal: <BsTerminal size="80" />,
-	apple: <RiAppleLine size="80" />,
-	slack: <SiSlack size="80" />,
+	github: <FaGithub size="48" />,
+	npm: <FaNpm size="48" />,
+	yarn: <FaYarn size="48" />,
+	bootstrap: <FaBootstrap size="48" />,
+	heroku: <GrHeroku size="48" />,
+	vsCode: <SiVisualstudio size="48" />,
+	trello: <RiTrelloLine size="48" />,
+	terminal: <BsTerminal size="48" />,
+	apple: <RiAppleLine size="48" />,
+	slack: <SiSlack size="48" />,
 };
 
 export default tools;
