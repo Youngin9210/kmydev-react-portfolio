@@ -8,12 +8,27 @@
   z-index: 2;
 }
 
+#hero #header .header-content {
+  text-align: center;
+}
+
 #hero #header .header-content h2 span {
   font-size: 4rem;
 }
 
+#hero #header .header-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #hero #header .header-img img {
-  width: 100%;
+  margin-top: 25px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 #hero #overlay {

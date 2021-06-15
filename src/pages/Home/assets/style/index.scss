@@ -5,6 +5,7 @@
 	#header {
 		z-index: 2;
 		.header-content {
+			text-align: center;
 			h2 {
 				span {
 					font-size: 4rem;
@@ -12,8 +13,12 @@
 			}
 		}
 		.header-img {
+			display: flex;
+			justify-content: center;
 			img {
-				width: 100%;
+				margin-top: 25px;
+				border-radius: 50%;
+				border: 2px solid white;
 			}
 		}
 	}
