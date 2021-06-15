@@ -30,7 +30,7 @@ export default function NavBar({ onPageChange }) {
 			className={`${navScroll} ${navClass}`}
 		>
 			<Container>
-				<Navbar.Brand href="/">
+				<Navbar.Brand href="/home">
 					KMY<small>dev</small>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="kmyNav" />
