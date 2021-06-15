@@ -35,12 +35,12 @@
   top: 15%;
 }
 
-#intro button {
+#intro .contactBtn {
   background: #7d67c6;
   color: white;
 }
 
-#intro button:hover {
+#intro .contactBtn:hover {
   background: #45396d;
 }
 

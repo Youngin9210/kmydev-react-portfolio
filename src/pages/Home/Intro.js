@@ -8,7 +8,7 @@ export default function Intro() {
 		<>
 			<Container
 				id="intro"
-				className="d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center"
+				className="d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center text-center mb-3"
 			>
 				<IntroContent />
 				<IntroImage />
