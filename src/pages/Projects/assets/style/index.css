@@ -1,9 +1,5 @@
 .projectCard {
-  border: 1px solid #8a2be2;
-  -webkit-box-shadow: 0px 0px 10px 10px #ffffff3d;
-          box-shadow: 0px 0px 10px 10px #ffffff3d;
-  -webkit-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
+  border: 1px solid white;
   border-radius: 15px;
 }
 
@@ -12,15 +8,7 @@
   color: #8a2be2;
 }
 
-.projectCard:hover {
-  -webkit-box-shadow: 0px 0px 15px 15px #41188dbb;
-          box-shadow: 0px 0px 15px 15px #41188dbb;
-  border: 1px solid white;
-  -webkit-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in;
-}
-
-.projectCard:hover .projectLink:hover {
+.projectLink:hover {
   background: #8a2be2;
   color: white;
 }
