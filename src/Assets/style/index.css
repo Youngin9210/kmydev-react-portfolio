@@ -41,12 +41,21 @@ h5 {
   font-size: 1.75rem;
 }
 
-.footerList .footerItem {
+#footer {
+  background: #892be248;
+}
+
+#footer .attribution {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .footerList .footerItem {
   background: none;
   border: none;
 }
 
-.footerList .footerItem .footerLink {
+#footer .footerList .footerItem .footerLink {
   color: white;
   font-size: 1.5rem;
 }

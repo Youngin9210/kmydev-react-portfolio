@@ -40,13 +40,20 @@ h5 {
 	font-size: 1.75rem;
 }
 
-.footerList {
-	.footerItem {
-		background: none;
-		border: none;
-		.footerLink {
-			color: white;
-			font-size: 1.5rem;
+#footer {
+	background: #892be248;
+	.attribution {
+		text-decoration: none;
+		color: white;
+	}
+	.footerList {
+		.footerItem {
+			background: none;
+			border: none;
+			.footerLink {
+				color: white;
+				font-size: 1.5rem;
+			}
 		}
 	}
 }
