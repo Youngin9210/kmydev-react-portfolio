@@ -14,7 +14,12 @@ export default function ProjectCard({
 	technologies,
 }) {
 	return (
-		<Col md={5} lg={4} xl={3} className="d-flex justify-content-center m-5">
+		<Col
+			md={5}
+			lg={4}
+			xl={3}
+			className="d-flex justify-content-center m-2 m-lg-5"
+		>
 			<Card
 				className="bg-transparent p-3 projectCard"
 				style={{ width: 'auto' }}
