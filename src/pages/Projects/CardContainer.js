@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import projects from '../../projects';
+import projects from '../../utils/projects';
 import CardBody from './CardBody';
 
 export default function CardContainer() {
