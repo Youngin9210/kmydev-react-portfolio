@@ -1,25 +1,52 @@
-import budgetTracker from './Assets/images/budgetTracker.png';
-import lostFound from './Assets/images/lostFound.png';
-import noteTaker from './Assets/images/noteTaker.png';
-import reactEmployeeDirectory from './Assets/images/reactEmployeeDirectory.png';
-import techBlog from './Assets/images/techBlog.png';
-import workoutTracker from './Assets/images/workoutTracker.png';
-import technologies from './technologies';
+import budgetTracker from '../Assets/images/budgetTracker.png';
+import lostFound from '../Assets/images/lostFound.png';
+import noteTaker from '../Assets/images/noteTaker.png';
+import reactEmployeeDirectory from '../Assets/images/reactEmployeeDirectory.png';
+import techBlog from '../Assets/images/techBlog.png';
+import workoutTracker from '../Assets/images/workoutTracker.png';
+import {
+	FaBootstrap,
+	FaReact,
+	FaJsSquare,
+	FaNodeJs,
+	FaCss3Alt,
+	FaHtml5,
+	FaGitAlt,
+	FaNpm,
+	FaGithub,
+} from 'react-icons/fa';
+import { DiMongodb } from 'react-icons/di';
+import { GrHeroku, GrMysql } from 'react-icons/gr';
+
+const tech = {
+	react: <FaReact size="32" className="m-1" />,
+	javascript: <FaJsSquare size="32" className="m-1" />,
+	nodejs: <FaNodeJs size="32" className="m-1" />,
+	css: <FaCss3Alt size="32" className="m-1" />,
+	html: <FaHtml5 size="32" className="m-1" />,
+	mysql: <GrMysql size="32" className="m-1" />,
+	mongodb: <DiMongodb size="32" className="m-1" />,
+	git: <FaGitAlt size="32" className="m-1" />,
+	bootstrap: <FaBootstrap size="32" className="m-1" />,
+	heroku: <GrHeroku size="32" className="m-1" />,
+	npm: <FaNpm size="32" className="m-1" />,
+	github: <FaGithub size="32" className="m-1" />,
+};
 
 const {
 	react,
 	javascript,
-	github,
 	git,
 	nodejs,
-	npm,
-	bootstrap,
 	css,
 	html,
-	heroku,
 	mysql,
 	mongodb,
-} = technologies;
+	github,
+	npm,
+	bootstrap,
+	heroku,
+} = tech;
 
 const projects = [
 	{
