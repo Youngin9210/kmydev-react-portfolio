@@ -38,11 +38,16 @@
 		position: relative;
 		top: 15%;
 	}
+	#resumeBtn {
+		z-index: 2;
+		background: #8a2be2;
+		color: white;
+	}
 }
 
 #intro {
 	.contactBtn {
-		background: #7d67c6;
+		background: #8a2be2;
 		color: white;
 	}
 	.contactBtn:hover {
