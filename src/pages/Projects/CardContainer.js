@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import projects from '../../utils/projects';
-import CardBody from './CardBody';
+import ProjectCard from './ProjectCard';
 
 export default function CardContainer() {
 	return (
-		<Container className="row justify-content-center">
+		<Container fluid className="d-flex justify-content-center flex-wrap">
 			{projects.map((p) => {
-				return <CardBody key={p.id} {...p} />;
+				return <ProjectCard key={p.id} {...p} />;
 			})}
 		</Container>
 	);
