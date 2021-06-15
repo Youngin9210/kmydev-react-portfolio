@@ -43,6 +43,7 @@ h5 {
 
 #footer {
   background: #892be248;
+  margin-top: 30px;
 }
 
 #footer .attribution {
@@ -58,5 +59,15 @@ h5 {
 #footer .footerList .footerItem .footerLink {
   color: white;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    text-align: center;
+  }
+  .purple {
+    font-size: 1.25rem;
+  }
 }
 /*# sourceMappingURL=index.css.map */

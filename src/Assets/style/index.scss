@@ -42,6 +42,7 @@ h5 {
 
 #footer {
 	background: #892be248;
+	margin-top: 30px;
 	.attribution {
 		text-decoration: none;
 		color: white;
@@ -55,5 +56,15 @@ h5 {
 				font-size: 1.5rem;
 			}
 		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	body {
+		text-align: center;
+	}
+	.purple {
+		font-size: 1.25rem;
 	}
 }
