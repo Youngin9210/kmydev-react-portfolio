@@ -1,22 +1,22 @@
+import { DiMongodb } from 'react-icons/di';
+import {
+	FaBootstrap,
+	FaCss3Alt,
+	FaGitAlt,
+	FaGithub,
+	FaHtml5,
+	FaJsSquare,
+	FaNodeJs,
+	FaNpm,
+	FaReact,
+} from 'react-icons/fa';
+import { GrHeroku, GrMysql } from 'react-icons/gr';
 import budgetTracker from '../Assets/images/budgetTracker.png';
 import lostFound from '../Assets/images/lostFound.png';
 import noteTaker from '../Assets/images/noteTaker.png';
 import reactEmployeeDirectory from '../Assets/images/reactEmployeeDirectory.png';
 import techBlog from '../Assets/images/techBlog.png';
 import workoutTracker from '../Assets/images/workoutTracker.png';
-import {
-	FaBootstrap,
-	FaReact,
-	FaJsSquare,
-	FaNodeJs,
-	FaCss3Alt,
-	FaHtml5,
-	FaGitAlt,
-	FaNpm,
-	FaGithub,
-} from 'react-icons/fa';
-import { DiMongodb } from 'react-icons/di';
-import { GrHeroku, GrMysql } from 'react-icons/gr';
 
 const tech = {
 	react: <FaReact size="32" className="m-1" />,
@@ -115,7 +115,8 @@ const projects = [
 		img: lostFound,
 		repoURL: 'https://github.com/Youngin9210/Lost-Found',
 		deployedURL: 'https://glacial-fortress-45860.herokuapp.com/',
-		details: 'Details go here',
+		details:
+			'A group project designed to allow users help one another by finding lost items throughout the world!',
 		technologies: [
 			javascript,
 			github,
@@ -135,7 +136,8 @@ const projects = [
 		img: techBlog,
 		repoURL: 'https://github.com/Youngin9210/Tech-Blog',
 		deployedURL: 'https://nameless-basin-78183.herokuapp.com/',
-		details: 'Details go here',
+		details:
+			"An app utilizing MVC file structure to create a 'Tech Blog' where users can interact with one another's blog posts.",
 		technologies: [
 			javascript,
 			github,
@@ -155,7 +157,8 @@ const projects = [
 		img: noteTaker,
 		repoURL: 'https://github.com/Youngin9210/Note-Taker',
 		deployedURL: 'https://youngin9210.github.io/Weather-Dashboard/',
-		details: 'Details go here',
+		details:
+			'Note Taker is an app designed to help a user make notes more accessible without using pen and paper. Take your notes on the go!',
 		technologies: [
 			javascript,
 			nodejs,
