@@ -7,11 +7,14 @@ export default function NavBar() {
 	let year = new Date().getFullYear();
 	return (
 		<Container
+			id="footer"
 			fluid
-			className="d-flex justify-content-between text-center m-3 my-5"
+			className="d-flex flex-wrap justify-content-between text-center py-2"
 		>
 			<Col md={4} className="d-flex align-items-center justify-content-center">
-				<h5>Designed and Developed by Kyle Young</h5>
+				<a href="https://storyset.com/work" className="attribution">
+					Work illustrations by Storyset
+				</a>
 			</Col>
 			<Col md={4} className="d-flex align-items-center justify-content-center">
 				<h5>Copyright &copy; {year} KMYdev</h5>
