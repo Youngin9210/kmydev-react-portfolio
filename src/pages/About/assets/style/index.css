@@ -1,13 +1,47 @@
 #about {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
-#about .aboutHeadshot {
-  max-width: 270px;
-  max-height: 270px;
-  -webkit-box-shadow: 0px 0px 10px 10px #958ea077;
-          box-shadow: 0px 0px 10px 10px #958ea077;
-  border-radius: 50%;
+#about .aboutImg {
+  width: 80%;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+}
+
+.contactList li {
+  padding: 10px 0;
+}
+
+.contactList li .contactLink {
+  text-decoration: none;
+  color: white;
+}
+
+#freeTime {
+  margin-bottom: 50px;
+}
+
+#freeTime h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+#freeTime .freeTimeList {
+  list-style: none;
+}
+
+.techHeader {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .techRow {
@@ -20,12 +54,7 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 100px 0;
-}
-
-.techRow h2 {
-  font-size: 3.5rem;
-  text-decoration: underline;
+  margin-bottom: 30px;
 }
 
 .techRow .aboutTech {
@@ -34,6 +63,13 @@
           box-shadow: 5px 5px 5px 0px #ffffff3d;
   border-radius: 10px;
   width: auto;
-  padding: 50px;
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .techRow .aboutTech {
+    padding: 10;
+  }
 }
 /*# sourceMappingURL=index.css.map */

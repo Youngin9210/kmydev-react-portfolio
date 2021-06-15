@@ -1,18 +1,16 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-import headshot from './assets/images/headshot.png';
+import aboutImg from './assets//images/aboutImg.png';
 
 export default function AboutImage() {
 	return (
-		<Col lg={4} className="d-flex justify-content-center">
+		<Col md={8} lg={6} className="imageContainer">
 			<img
-				src={headshot}
-				style={{
-					maxWidth: '270px',
-					maxHeight: '270px',
-					boxShadow: '0px 0px 10px 10px #958ea077',
-				}}
-				className="aboutHeadshot"
+				src={aboutImg}
+				// style={{
+				// 	boxShadow: '0px 0px 10px 10px #958ea077',
+				// }}
+				className="aboutImg"
 				alt=""
 			/>
 		</Col>
