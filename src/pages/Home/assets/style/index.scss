@@ -4,11 +4,17 @@
 	position: relative;
 	#header {
 		z-index: 2;
+		.header-content {
+			h2 {
+				span {
+					font-size: 4rem;
+				}
+			}
+		}
 		.header-img {
 			img {
 				width: 100%;
 			}
-		}
 		}
 	}
 	#overlay {

@@ -8,12 +8,12 @@
   z-index: 2;
 }
 
-#hero #header .header-img img {
-  width: 100%;
+#hero #header .header-content h2 span {
+  font-size: 4rem;
 }
 
-#hero #header .header-content h2 span {
-  color: #7d67c6;
+#hero #header .header-img img {
+  width: 100%;
 }
 
 #hero #overlay {
