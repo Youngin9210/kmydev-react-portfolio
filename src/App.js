@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import About from './pages/About/index';
@@ -8,7 +8,7 @@ import Projects from './pages/Projects/index';
 
 const App = () => {
 	return (
-		<Router basename="/">
+		<Router basename="/kmydev-react-portfolio">
 			<NavBar />
 			<Switch>
 				<Route exact path="/" component={Home}></Route>
