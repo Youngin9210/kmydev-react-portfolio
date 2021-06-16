@@ -8,7 +8,7 @@ import Projects from './pages/Projects/index';
 
 const App = () => {
 	return (
-		<Router>
+		<Router basename="/">
 			<NavBar />
 			<Switch>
 				<Route exact path="/" component={Home}></Route>
