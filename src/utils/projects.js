@@ -55,7 +55,8 @@ const projects = [
 		img: reactEmployeeDirectory,
 		repoURL: 'https://github.com/Youngin9210/REACT-EmployeeDirectory',
 		deployedURL: 'https://youngin9210.github.io/REACT-EmployeeDirectory/',
-		details: 'Details go here',
+		details:
+			'A sortable, searchable, and paginated employee directory created using React.js.',
 		technologies: [
 			react,
 			javascript,
@@ -74,7 +75,8 @@ const projects = [
 		img: budgetTracker,
 		repoURL: 'https://github.com/Youngin9210/Budget-Tracker',
 		deployedURL: 'https://protected-stream-94143.herokuapp.com/',
-		details: 'Details go here',
+		details:
+			"An app to track a user's budget on and offline so the user can always keep track of their money no matter where they are!",
 		technologies: [
 			javascript,
 			github,
@@ -95,7 +97,8 @@ const projects = [
 		repoURL: 'https://github.com/Youngin9210/Workout-Tracker',
 		deployedURL:
 			'https://fierce-inlet-72161.herokuapp.com/?id=60a81b79b60c910015bdb426',
-		details: 'Details go here',
+		details:
+			'Workout Tracker is an app that users can input exercises and track the stats of each workout session. This app uses Node.js, Express.js, and MongoDB to help users input data for each exercise within their workout session.',
 		technologies: [
 			javascript,
 			github,
