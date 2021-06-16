@@ -1,49 +1,32 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-export default function NavBar({ onPageChange }) {
-	const [path] = useState(window.location.pathname);
-	const [navScroll, setNavScroll] = useState('');
-	const [navClass, setNavClass] = useState('');
-
-	useEffect(() => {
-		window.addEventListener('load', handlePageChange);
-		window.addEventListener('scroll', handleScroll);
-
-		return () => {
-			window.removeEventListener('load', handlePageChange);
-			window.removeEventListener('scroll', handleScroll);
-		};
-	});
-
-	const handleScroll = () => {
-		path === '/home' && window.pageYOffset > 150
-			? setNavScroll('navScroll')
-			: setNavScroll('');
-	};
-
-	const handlePageChange = () => {
-		path === '/home' ? setNavClass('homeNav') : setNavClass('otherNav');
-	};
-
+export default function NavBar() {
 	return (
 		<Navbar
 			sticky="top"
 			id="mainNav"
 			variant="dark"
 			expand="lg"
-			className={`${navScroll} ${navClass}`}
+			className={`otherNav`}
 		>
 			<Container>
-				<Navbar.Brand href="/home">
+				<Link to="/home" className="navbar-brand">
 					KMY<small>dev</small>
-				</Navbar.Brand>
+				</Link>
 				<Navbar.Toggle aria-controls="kmyNav" />
 				<Navbar.Collapse id="kmyNav" className="justify-content-end">
 					<Nav className="mr-auto">
-						<Nav.Link href="/home">Home</Nav.Link>
-						<Nav.Link href="/about">About</Nav.Link>
-						<Nav.Link href="/projects">Projects</Nav.Link>
+						<Link to="/home" className="nav-link">
+							Home
+						</Link>
+						<Link to="/about" className="nav-link">
+							About
+						</Link>
+						<Link to="/projects" className="nav-link">
+							Projects
+						</Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

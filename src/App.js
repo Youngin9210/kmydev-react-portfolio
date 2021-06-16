@@ -7,11 +7,12 @@ import Home from './pages/Home/index';
 import Projects from './pages/Projects/index';
 
 const App = () => {
+	console.log(process.env.PUBLIC_URL);
 	return (
-		<Router basename="/kmydev-react-portfolio">
+		<Router>
 			<NavBar />
 			<Switch>
-				<Route exact path="/" component={Home}></Route>
+				<Route exact path={['/', '/home']} component={Home}></Route>
 				<Route exact path="/about" component={About}></Route>
 				<Route exact path="/projects" component={Projects}></Route>
 			</Switch>
