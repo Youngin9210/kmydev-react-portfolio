@@ -7,7 +7,6 @@ import Home from './pages/Home/index';
 import Projects from './pages/Projects/index';
 
 const App = () => {
-	console.log(process.env.PUBLIC_URL);
 	return (
 		<Router>
 			<NavBar />
