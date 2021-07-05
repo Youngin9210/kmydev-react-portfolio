@@ -36,7 +36,7 @@ Personal portfolio site made with React.js.
 
 ## Deployment
 
-[GitHub Pages Deployment](https://youngin9210.github.io/REACT-EmployeeDirectory/)
+[GitHub Pages Deployment](https://youngin9210.github.io/kmydev-react-portfolio/#/)
 
 ## Installation
 

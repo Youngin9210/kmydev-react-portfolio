@@ -11,7 +11,9 @@ import {
 	FaReact,
 } from 'react-icons/fa';
 import { GrHeroku, GrMysql } from 'react-icons/gr';
+import { SiMaterialUi } from 'react-icons/si';
 import budgetTracker from '../Assets/images/budgetTracker.png';
+import googleBooks from '../Assets/images/googleBooks.png';
 import lostFound from '../Assets/images/lostFound.png';
 import noteTaker from '../Assets/images/noteTaker.png';
 import reactEmployeeDirectory from '../Assets/images/reactEmployeeDirectory.png';
@@ -31,6 +33,7 @@ const tech = {
 	heroku: <GrHeroku size="32" className="m-1" />,
 	npm: <FaNpm size="32" className="m-1" />,
 	github: <FaGithub size="32" className="m-1" />,
+	mui: <SiMaterialUi size="48" className="m-1" />,
 };
 
 const {
@@ -46,11 +49,34 @@ const {
 	npm,
 	bootstrap,
 	heroku,
+	mui,
 } = tech;
 
 const projects = [
 	{
 		id: 1,
+		name: 'Google Books Search',
+		img: googleBooks,
+		repoURL: 'https://github.com/Youngin9210/google-books-search',
+		deployedURL: 'https://osu-google-books.herokuapp.com/',
+		details:
+			'An app that utilizes the Google Books API to fetch book data upon a user search input.  Books can then be saved to a MongoDB database.',
+		technologies: [
+			react,
+			javascript,
+			github,
+			git,
+			nodejs,
+			npm,
+			mongodb,
+			mui,
+			css,
+			html,
+			heroku,
+		],
+	},
+	{
+		id: 2,
 		name: 'React Employee Directory',
 		img: reactEmployeeDirectory,
 		repoURL: 'https://github.com/Youngin9210/REACT-EmployeeDirectory',
@@ -70,7 +96,7 @@ const projects = [
 		],
 	},
 	{
-		id: 2,
+		id: 3,
 		name: 'Budget Tracker',
 		img: budgetTracker,
 		repoURL: 'https://github.com/Youngin9210/Budget-Tracker',
@@ -91,7 +117,7 @@ const projects = [
 		],
 	},
 	{
-		id: 3,
+		id: 4,
 		name: 'Workout Tracker',
 		img: workoutTracker,
 		repoURL: 'https://github.com/Youngin9210/Workout-Tracker',
@@ -113,7 +139,7 @@ const projects = [
 		],
 	},
 	{
-		id: 4,
+		id: 5,
 		name: 'Lost & Found',
 		img: lostFound,
 		repoURL: 'https://github.com/Youngin9210/Lost-Found',
@@ -134,7 +160,7 @@ const projects = [
 		],
 	},
 	{
-		id: 5,
+		id: 6,
 		name: 'Tech Blog',
 		img: techBlog,
 		repoURL: 'https://github.com/Youngin9210/Tech-Blog',
@@ -155,7 +181,7 @@ const projects = [
 		],
 	},
 	{
-		id: 6,
+		id: 7,
 		name: 'Note Taker',
 		img: noteTaker,
 		repoURL: 'https://github.com/Youngin9210/Note-Taker',
