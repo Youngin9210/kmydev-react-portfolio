@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/kmydev-react-portfolio/static/css/main.4793b680.chunk.css",
+    "main.js": "/kmydev-react-portfolio/static/js/main.54d55294.chunk.js",
+    "main.js.map": "/kmydev-react-portfolio/static/js/main.54d55294.chunk.js.map",
+    "runtime-main.js": "/kmydev-react-portfolio/static/js/runtime-main.e3806d51.js",
+    "runtime-main.js.map": "/kmydev-react-portfolio/static/js/runtime-main.e3806d51.js.map",
+    "static/css/2.15a7a700.chunk.css": "/kmydev-react-portfolio/static/css/2.15a7a700.chunk.css",
+    "static/js/2.94e471e1.chunk.js": "/kmydev-react-portfolio/static/js/2.94e471e1.chunk.js",
+    "static/js/2.94e471e1.chunk.js.map": "/kmydev-react-portfolio/static/js/2.94e471e1.chunk.js.map",
+    "static/js/3.f0bc24ed.chunk.js": "/kmydev-react-portfolio/static/js/3.f0bc24ed.chunk.js",
+    "static/js/3.f0bc24ed.chunk.js.map": "/kmydev-react-portfolio/static/js/3.f0bc24ed.chunk.js.map",
+    "index.html": "/kmydev-react-portfolio/index.html",
+    "static/css/2.15a7a700.chunk.css.map": "/kmydev-react-portfolio/static/css/2.15a7a700.chunk.css.map",
+    "static/css/main.4793b680.chunk.css.map": "/kmydev-react-portfolio/static/css/main.4793b680.chunk.css.map",
+    "static/js/2.94e471e1.chunk.js.LICENSE.txt": "/kmydev-react-portfolio/static/js/2.94e471e1.chunk.js.LICENSE.txt",
+    "static/media/aboutImg.a8604cf4.png": "/kmydev-react-portfolio/static/media/aboutImg.a8604cf4.png",
+    "static/media/budgetTracker.145d8d0b.png": "/kmydev-react-portfolio/static/media/budgetTracker.145d8d0b.png",
+    "static/media/googleBooks.41ff5c07.png": "/kmydev-react-portfolio/static/media/googleBooks.41ff5c07.png",
+    "static/media/index.css": "/kmydev-react-portfolio/static/media/header.f38fabf8.jpeg",
+    "static/media/headshot.1cd8209f.png": "/kmydev-react-portfolio/static/media/headshot.1cd8209f.png",
+    "static/media/introImg.65f3c6b9.png": "/kmydev-react-portfolio/static/media/introImg.65f3c6b9.png",
+    "static/media/lostFound.95578b14.png": "/kmydev-react-portfolio/static/media/lostFound.95578b14.png",
+    "static/media/noteTaker.b4a07551.png": "/kmydev-react-portfolio/static/media/noteTaker.b4a07551.png",
+    "static/media/reactEmployeeDirectory.cef11063.png": "/kmydev-react-portfolio/static/media/reactEmployeeDirectory.cef11063.png",
+    "static/media/resume.fb9b500d.pdf": "/kmydev-react-portfolio/static/media/resume.fb9b500d.pdf",
+    "static/media/techBlog.62ccbb4c.png": "/kmydev-react-portfolio/static/media/techBlog.62ccbb4c.png",
+    "static/media/workoutTracker.91f1c828.png": "/kmydev-react-portfolio/static/media/workoutTracker.91f1c828.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3806d51.js",
+    "static/css/2.15a7a700.chunk.css",
+    "static/js/2.94e471e1.chunk.js",
+    "static/css/main.4793b680.chunk.css",
+    "static/js/main.54d55294.chunk.js"
+  ]
+}
