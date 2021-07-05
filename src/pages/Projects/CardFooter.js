@@ -1,16 +1,19 @@
-import React from 'react';
-import { Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Card } from "react-bootstrap";
 
 export default function CardFooter({ repoURL, deployedURL }) {
-	return (
-		<Card.Footer>
-			<Link to={repoURL} className="btn btn-lg m-2 projectLink">
-				Repo
-			</Link>
-			<Link to={deployedURL} className="btn btn-lg m-2 projectLink">
-				App
-			</Link>
-		</Card.Footer>
-	);
+  return (
+    <Card.Footer>
+      <a href={repoURL} target="_blank" className="btn btn-lg m-2 projectLink">
+        Repo
+      </a>
+      <a
+        href={deployedURL}
+        target="_blank"
+        className="btn btn-lg m-2 projectLink"
+      >
+        App
+      </a>
+    </Card.Footer>
+  );
 }
